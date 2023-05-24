@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: ['@nuxtjs', 'plugin:vue/vue3-recommended', 'prettier'],
+  extends: ['@nuxtjs/eslint-config', 'plugin:vue/vue3-recommended', 'prettier'],
   parserOptions: {
     ecmaVersion: 13,
     sourceType: 'module'
